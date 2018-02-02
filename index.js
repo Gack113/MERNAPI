@@ -2,8 +2,10 @@ const express = require('express')
 
 // setup express app
 const app = express()
+const bodyParser = require('body-parser')
 
-// setup lib
+app.use(bodyParser.json())
+
 // initialize routes
 app.use('/api',require('./src/api'))
 app.use(express.static('./public'))
