@@ -1,0 +1,15 @@
+.inputArea{
+    float:left;
+    width: 50%;
+}
+
+.choiceArea{
+    float:left;
+    width: 50%;
+}
+
+.container{
+    margin: 0 auto;
+    width: 500px;
+    padding-top: 10%;
+}
